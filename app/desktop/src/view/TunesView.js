@@ -12,7 +12,7 @@ Ext.define('ModernTunes.view.TunesView', {
     itemCls: 'video',
     itemTpl: [
         '<figure>',
-        '<div class="thumbnail" style="background-image:url(\'{image}\')"></div>',
+        '<div class="thumbnail" style="background-image:url(\'{image}\')","background-size: cover"></div>',
         '<figcaption><div class=\'title\'>{title}</div><div class=\'artist\'>{artist}</div></figcaption>',
         '</figure>'
     ]
